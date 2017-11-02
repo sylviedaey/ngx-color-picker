@@ -57,7 +57,7 @@ import { ColorPickerModule } from 'ngx-color-picker';
 ##### Use it in your HTML template:
 
 ```html
-<input [(colorPicker)]="color" [style.background]="color"/>
+<input [(colorPicker)]="color" [style.background-color]="color"/>
 ```
 
 ```javascript
